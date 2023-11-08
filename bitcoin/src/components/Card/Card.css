@@ -1,0 +1,31 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 20px;
+  background-color: bisque;
+  border-radius: 15px;
+  margin-top: 10px;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  margin: 10px;
+}
+
+.card > h1 {
+  position: absolute;
+  top: -5px;
+  color: black;
+  background-color: blanchedalmond;
+  font-size: 1rem;
+  padding: 0px 20px;
+  border-radius: 999px;
+}
+.card > h2 {
+  margin: 10px 0px;
+  font-size: 1.2rem;
+}
+.card > p {
+  color: gray;
+  font-size: 0.8rem;
+}

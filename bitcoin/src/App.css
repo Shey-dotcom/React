@@ -1,0 +1,33 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.app__cards {
+  display: flex;
+  position: relative;
+}
+
+.app > h1 {
+  color: black;
+  background-color: blanchedalmond;
+  font-size: 1rem;
+  padding: 5px 20px;
+  border-radius: 999px;
+  justify-content: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  user-select: none;
+}
+.app > h3 {
+  color: black;
+  font-size: 1rem;
+  font-style: italic;
+  padding: 10px;
+  justify-content: center;
+  margin-bottom: 5px;
+  user-select: none;
+}
